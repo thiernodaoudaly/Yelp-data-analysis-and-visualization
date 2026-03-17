@@ -1,26 +1,37 @@
-# Analyse et Visualisation des Données Yelp
+# Yelp Data Analysis and Visualization
 
-## Objectif général
-Ce projet utilise le **dataset public de Yelp** afin d’effectuer une **analyse descriptive** et de proposer des **visualisations pertinentes** autour des commerces, des utilisateurs et des avis.
+## Overview
+This project leverages the **Yelp public dataset** to perform **descriptive data analysis** and generate **insightful visualizations** related to businesses, users, and reviews.
 
-## Fonctionnalités attendues
-- Nettoyage et structuration du dataset  
-- Analyse de l’activité des utilisateurs et des tendances par ville/catégorie  
-- Calcul de scores d’activité, d’influence ou de confiance  
-- Représentation graphique des corrélations (exemple : note moyenne vs nombre d’avis)  
+## Objectives
+- Clean and structure raw data  
+- Analyze user activity and business trends  
+- Explore patterns across cities and categories  
+- Compute user-related metrics (activity, influence, trust)  
+- Identify correlations between key variables  
 
 ## Dataset
-Le projet utilise le dataset suivant : [Yelp Academic Dataset](https://www.yelp.com/dataset)
+- Yelp Academic Dataset: https://www.yelp.com/dataset  
 
-## Technologies
-- **Big Data & Traitement distribué** : Spark / PySpark  
-- **Manipulation & Visualisation** : Pandas, Matplotlib, Seaborn  
-- **Dashboard** : Streamlit  
+## Technologies Used
+- **Big Data Processing**: Apache Spark / PySpark  
+- **Data Analysis & Visualization**: Pandas, Matplotlib, Seaborn  
+- **Dashboard & App**: Streamlit  
 
-## Résultats 
-- Statistiques descriptives sur les commerces, utilisateurs et avis  
-- Visualisations des tendances par ville et par catégorie  
-- Scores d’activité/influence des utilisateurs  
-- Graphiques illustrant les corrélations entre variables  
+## Features
+- Data preprocessing and cleaning  
+- User activity and trend analysis by city/category  
+- Computation of activity, influence, and trust scores  
+- Correlation analysis (e.g., average rating vs. number of reviews)  
+- Interactive or static visualizations  
 
+## Results
+- Descriptive statistics on businesses, users, and reviews  
+- Trend visualizations by location and category  
+- User influence/activity scoring  
+- Graphs highlighting relationships between variables  
 
+## Future Improvements
+- Add real-time data streaming  
+- Improve recommendation insights  
+- Deploy the dashboard online  
